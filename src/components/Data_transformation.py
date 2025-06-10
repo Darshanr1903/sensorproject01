@@ -70,8 +70,8 @@ class DataTransformation:
             preprocessor_path=self.data_transformation_config.transformed_object_file_path
             os.makedirs(preprocessor_path,exist_ok=True)
             self.utils.save_object(file_path=preprocessor_path,obj=preprocessor)
-            train_arr=np.c[x_train_scale,np.array(y_train)]
-            test_arr=np.c[x_test_scale,np.array(y_test)]
+            train_arr=np.c_[x_train_scale,np.array(y_train)]
+            test_arr=np.c_[x_test_scale,np.array(y_test)]
             return {train_arr,test_arr,preprocessor_path}
         except Exception as e:
             raise CustomException(e,sys)
