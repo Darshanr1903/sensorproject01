@@ -41,7 +41,6 @@ The following are the key features of the Wafer Fault Detection project:
 | Frontend | HTML, CSS, JavaScript |
 | Backend | Python, Flask |
 | Database | MongoDB |
-| Storage | AWS S3 |
 | Machine Learning | scikit-learn |
 | Data Processing | pandas |
 
@@ -95,7 +94,7 @@ The project includes the following APIs:
 The APIs are implemented using Flask, and they return JSON responses. The APIs are designed to be secure and scalable, with proper error handling and logging.
 
 ## 👤 Author
-The project was developed by [Your Name].
+The project was developed by Darshan R.
 
 ## 📝 License
 The project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
